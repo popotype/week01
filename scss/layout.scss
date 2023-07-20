@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family             : 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin : 0;
+}
+
+.container {
+  width : 1200px;
+  margin: 0 auto;
+
+}
+
+.section01 {
+
+
+  h1 {
+    font-size      : 80px;
+    font-size      : 130px;
+    margin-bottom  : 20px;
+    //padding-left : 1.3em;
+  }
+
+  .cover {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+  }
+
+  .RESUME {
+    font-size        : 80px;
+    font-size        : 130px;
+    display          : flex;
+    justify-content  : flex-end;
+    //padding-right  : 1.5em;
+  }
+
+}
+
+.section02 {
+  background: #EFEFEF;
+  margin-top: 60px;
+  height    : 432px;
+  padding   : 30px;
+  display   : flex;
+
+  .container {
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+
+    .txtinfo {
+      width      : 636px;
+      font-size  : 30px;
+      line-height: 2.0em;
+    }
+  }
+}
+
+.section03 {
+  padding: 30px 0 60px;
+
+  .container {
+
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+    align-items    : flex-start;
+
+    .txtbox {
+      width: 50%;
+
+      h2 {
+        width        : 100%;
+        color        : #AE0000;
+        border-bottom: 3px solid #AE0000;
+        font-size    : 35px;
+      }
+
+      p {
+        font-size: 24px;
+      }
+
+      .year-wrap {
+        line-height  : 8px;
+        margin-bottom: 10px;
+
+        small {
+          color      : #949494;
+          font-size  : 20px;
+          font-style : italic;
+          font-weight: bold;
+        }
+
+        p {
+          font-size  : 24px;
+          margin-top : 6px;
+          line-height: 1.6em;
+        }
+      }
+
+
+
+
+    }
+  }
+
+}
+
+footer {
+  height         : 192px;
+  background     : rgba(0, 0, 0, 1);
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+
+  .LINK {
+    width          : 310px;
+    display        : flex;
+    justify-content: space-around;
+  }
+}
