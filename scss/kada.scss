@@ -1,0 +1,73 @@
+.pagewrap {
+  width: 640px;
+  margin: 0 auto;
+
+  .container {
+    width: 640px;
+    overflow: hidden;
+    display: flex;
+
+    .LISTWRAP {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+
+      .item {
+        margin-bottom: 24px;
+        display: flex;
+
+        img {
+
+          width: 96px;
+          height: 96px;
+          vertical-align: middle;
+        }
+
+        .txtInfo {
+          width: 288px;
+          margin: 0 20px;
+
+          h2 {
+            font-size: 20px;
+            line-height: 1.2;
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 1.2;
+          }
+
+
+        }
+
+
+
+
+      }
+    }
+
+    .RIGHTAD {
+      display: flex;
+
+
+      img {
+        width: 216px;
+        height: 216px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  footer {
+    clear: both;
+    width: 640px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #efefef;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
