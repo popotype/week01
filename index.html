@@ -8,21 +8,25 @@
   <title>VITO</title>
   <link rel="stylesheet" href="./assets/css/layout.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="section01">
     <div class="container">
-      <h1>VITO</h1>
-      <div class="cover"><img
+      <h1 data-aos="fade-right"
+      data-aos-offset="600" data-aos-duration="1000">VITO</h1>
+      <div class="cover" data-aos="fade-up"
+      data-aos-offset="600" data-aos-duration="1000" data-aos-delay="50"><img
           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week1/vito.png" alt="">
       </div>
-      <div class="RESUME">RESUME</div>
+      <div class="RESUME" data-aos="fade-up"
+      data-aos-offset="200">RESUME</div>
     </div>
   </div>
   <div class="section02">
     <div class="container">
-      <div class="txtinfo">
+      <div class="txtinfo" data-aos="flip-left">
         I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile
         apps. Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to
         create high-quality products.
@@ -32,13 +36,19 @@
   <div class="section03">
     <div class="container">
       <div class="txtbox">
-        <h2>Vito Evans</h2>
+        <h2 data-aos="fade-right"
+        data-aos-offset="600" data-aos-duration="1800">Vito Evans</h2>
+        <div data-aos="fade-right"
+        data-aos-offset="600" data-aos-duration="2000">
         <p>456 Walnut Avenue, Someville, USA</p>
         <p>+1 123 456 7890</p>
         <p>info@hexschool.com</p>
         <p>www.infohexschool.com</p>
-
-        <h2>Education</h2>
+      </div>
+        <h2 data-aos="fade-right"
+        data-aos-offset="600" data-aos-duration="2200">Education</h2>
+        <div data-aos="fade-right"
+        data-aos-offset="600" data-aos-duration="2600">
         <div class="year-wrap">
           <small>2014-2018</small>
           <p>Bachelor of Science in Business Administration, University of California, Los Angeles</p>
@@ -51,8 +61,11 @@
           <small>2008-2012 </small>
           <p>High School Diploma, Lincoln High School</p>
         </div>
-
-        <h2>Work</h2>
+      </div>
+        <h2 data-aos="fade-right"
+        data-aos-offset="600" data-aos-duration="2800">Work</h2>
+        <div data-aos="fade-right"
+        data-aos-offset="600" data-aos-duration="3000">
         <div class="year-wrap">
           <small>2018-2021</small>
           <p>Marketing Manager, ABC Company</p>
@@ -67,12 +80,14 @@
           <small>2014-2016</small>
           <p>Customer Service Representative, QRS Inc.</p>
         </div>
-
+      </div>
 
         <h2>Awards</h2>
+        
         <p>Best in Show Award, National Advertising Awards, 2020</p>
         <p>Honorable Mention, International Design Competition, 2019</p>
         <p>People's Choice Award, Local Art Exhibition, 2018</p>
+     
       </div>
     </div>
   </div>
@@ -85,6 +100,11 @@
           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week1/line.png" alt=""></a>
     </div>
   </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
 
 </html>
